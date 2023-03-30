@@ -1,0 +1,7 @@
+class {
+  onCreate(input, out) {
+    // This log is executed on both on the server _and_ client
+    // Note how on the server the private property is included, but is omitted on the client
+    console.log(out.global.test);
+  }
+}

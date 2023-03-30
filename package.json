@@ -1,0 +1,18 @@
+{
+  "name": "leakless-poc",
+  "description": "The default Marko starter app",
+  "version": "1.0.0",
+  "dependencies": {
+    "marko": "^5",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@marko/run": "^0.1.6"
+  },
+  "private": true,
+  "scripts": {
+    "build": "marko-run build",
+    "dev": "marko-run",
+    "start": "marko-run preview"
+  }
+}
